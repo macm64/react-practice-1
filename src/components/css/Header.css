@@ -1,0 +1,29 @@
+.Header {
+  background-color: #222;
+  text-align: center;
+  height: 200px;
+  padding: 0px;
+  color: white;
+  font-family: 'Caveat Brush';
+  font-size: 30px;
+  line-height: 30%;
+}
+.Menu{
+  margin: 0px;
+  padding: 0px;
+}
+.Menu li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.Logo img{
+  animation: App-logo-spin infinite 10s linear;
+  height: 80px;
+  padding-bottom: 0px;
+}
+
+@keyframes App-logo-spin {
+  from  {transform: rotateY(0deg);}
+  to  {transform: rotateY(360deg);}
+
+}

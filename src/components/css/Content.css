@@ -1,0 +1,16 @@
+.Content{
+  margin: auto;
+  text-align: center;
+  width: 98%;
+}
+.Table{
+  margin:auto;
+  text-align: center;
+  align-items: center;
+}
+.Input{
+  text-align: center;
+}
+.title-text{
+  font-family: 'Caveat Brush';
+}
