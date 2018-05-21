@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    app: path.join(__dirname, '/src/components/index.js')
+    app: path.join(__dirname, '/src/index.js')
   },
   output: {
     path: path.join(__dirname, 'build'),
@@ -15,6 +15,7 @@ module.exports = {
   devServer: {
     host: 'localhost',
     port: 3000,
+    historyApiFallback: true,
     inline: true
   },
   module: {
