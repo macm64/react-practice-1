@@ -1,5 +1,6 @@
 //Dependencies
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom'
 //Assets
 import './css/Header.css';
 import logo from './images/digital_bulb.jpg'
@@ -16,7 +17,8 @@ class Header extends Component {
               {this.props.title}
             </h2>
             <ul className="Menu">
-              {items && items.map( (item,key)=> <li key={key}> {item.title}</li>)}
+
+              {items && items.map( (item,key)=> <li key={key}><Link to={item.url}>{item.title}</Link></li>)}
             </ul>
         </div>
       </div>
